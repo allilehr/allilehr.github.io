@@ -1,4 +1,20 @@
 body {
-	background-color: blueviolet;
-	color: white;
+	background-color: white;
+	color: black;
+	font-family: sans-serif;
+	font-size: 16px;
+}
+h1 {
+	font-weight: bold;
+	font-size: 22px;
+	text-align: center;
+}
+p {
+	font-size: 16px;
+}
+img {
+	text-align: center;
+}
+#slogan {
+	font-style: italic;
 }
