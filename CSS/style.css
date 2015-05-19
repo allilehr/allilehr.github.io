@@ -1,5 +1,5 @@
 body {
-	background-image: url("css/rosegrouppic.jpg");
+	background-color: rgb(250,250,250);
 	color: black;
 	font-family: trebuchet;
 	font-size: 16px;
@@ -10,7 +10,7 @@ h1 {
 	font-weight: normal;
 	text-align: center;
 }
-.centered {
+.center {
 	text-align: center;
 }
 p {
@@ -18,4 +18,6 @@ p {
 }
 #slogan {
 	font-style: italic;
+	font-weight: bold;
+	text-align: center;
 }
