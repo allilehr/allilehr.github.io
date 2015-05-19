@@ -1,19 +1,20 @@
 body {
-	background-color: white;
+	background-image: url("css/rosegrouppic.jpg");
 	color: black;
-	font-family: sans-serif;
+	font-family: trebuchet;
 	font-size: 16px;
 }
 h1 {
-	font-weight: bold;
-	font-size: 22px;
+	font-family: helvetica;
+	font-size: 60px;
+	font-weight: normal;
+	text-align: center;
+}
+.centered {
 	text-align: center;
 }
 p {
 	font-size: 16px;
-}
-img {
-	text-align: center;
 }
 #slogan {
 	font-style: italic;
