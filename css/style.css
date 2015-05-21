@@ -4,21 +4,28 @@ body {
 	font-family: tahoma;
 	font-size: 16px;
 }
+section#splash {
+	background-image:url('images/rosegrouppic.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	height:100vh;
+}
 h1 {
 	font-family: 'Cinzel Decorative', cursive;
 	font-size: 3em;
 	font-weight: normal;
 	text-align: center;
 }
+a {
+	text-decoration: none;
+}
 .center {
-	text-align: center;
+	display:block;
+	margin:0 auto 0 auto;
 }
 #slogan {
 	font-family: trebuchet;
 	font-style: italic;
 	font-weight: bold;
 	text-align: center;
-}
-a {
-	text-decoration: none;
 }
