@@ -1,11 +1,11 @@
 body {
 	background-color: rgb(250,250,250);
 	color: black;
-	font-family: tahoma;
+	font-family: tahoma,verdana,sans-serif;
 	font-size: 16px;
 }
 section#splash {
-	background-image:url('images/rosegrouppic.jpg');
+	background-image:url('../images/rosegrouppic.jpg');
 	background-size:cover;
 	background-repeat:no-repeat;
 	height:100vh;
@@ -24,7 +24,7 @@ a {
 	margin:0 auto 0 auto;
 }
 #slogan {
-	font-family: trebuchet;
+	font-family: trebuchet, serif;
 	font-style: italic;
 	font-weight: bold;
 	text-align: center;
