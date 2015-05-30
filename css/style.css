@@ -3,6 +3,7 @@ body {
 	color: black;
 	font-family: tahoma,verdana,sans-serif;
 	font-size: 16px;
+	line-height: 1.3em;
 }
 section#splash {
 	background-image:url('../images/rosegrouppic.jpg');
@@ -11,13 +12,27 @@ section#splash {
 	height:100vh;
 }
 h1 {
+	display: inline;
 	font-family: 'Cinzel Decorative', cursive;
 	font-size: 3em;
 	font-weight: normal;
-	text-align: center;
+	text-align: left;
 }
 a {
 	text-decoration: none;
+}
+p {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-right: 3em;
+	margin-left: 3em;
+}
+.logopic {
+	display: inline;
+	margin:0; 
+	padding:0; 
+	box-sizing: border-box;
+	height:6em;
 }
 .center {
 	display:block;
