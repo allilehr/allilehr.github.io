@@ -29,10 +29,10 @@ p {
 }
 .logopic {
 	display: inline;
-	margin:0; 
-	padding:0; 
+	margin: 2em 0 0 0; 
+	padding: 0;
 	box-sizing: border-box;
-	height:6em;
+	height: 6em;
 }
 .center {
 	display:block;
@@ -46,4 +46,20 @@ p {
 }
 .smallsplash {
 	height:82vh;
+}
+.solopics {
+	height:80vh;
+	margin:1em;
+	padding:0;
+}
+.wrapper {
+	margin: 0 auto;
+	width:900px;
+}
+div {
+	margin: 1em;
+}
+span {
+	padding: 0 0 0 .25em;
+	margin-bottom: 2em;
 }
