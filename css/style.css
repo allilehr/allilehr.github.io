@@ -26,14 +26,16 @@ h1 {
 	font-size: 3em;
 	font-weight: normal;
 }
+.soul-font {
+	font-family: cursive;
+	font-size: 3em;
+	font-weight: normal;
+}
 a {
 	text-decoration: none;
 }
 p {
-	margin-top: 1em;
-	margin-bottom: 1em;
-	margin-right: 3em;
-	margin-left: 3em;
+	margin: 1em 3em;
 }
 .logopic {
 	display: inline;
@@ -53,17 +55,17 @@ p {
 	text-align: center;
 }
 .smallsplash {
-	height:82vh;
+	height:85vh;
 }
 .solopics {
 	height:80vh;
-	margin:1em;
+	margin:.5em;
 	padding:0;
 }
 .wrapper {
 	margin: 0 auto;
 	text-align: center;
-	width:900px;
+	width:1000px;
 }
 div {
 	margin: 1em;
