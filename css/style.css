@@ -18,8 +18,12 @@ h1 {
 	font-family: 'Cinzel Decorative', cursive;
 	font-size: 3em;
 	font-weight: normal;
-	margin: 0 0 0 0;
+	margin: 0;
 	text-align: left;
+}
+h1 span{
+	float: left;
+	padding: 40px .25em;
 }
 .logo {
 	font-family: 'Cinzel Decorative', cursive;
@@ -38,10 +42,11 @@ p {
 	margin: 1em 3em;
 }
 .logopic {
-	display: inline;
-	padding: 0;
 	box-sizing: border-box;
+	display: inline;
+	float: left;
 	height: 6em;
+	padding: 0;
 }
 .center {
 	display:block;
@@ -69,8 +74,4 @@ p {
 }
 div {
 	margin: 1em;
-}
-span {
-	padding: 0 0 0 .25em;
-	margin-bottom: 2em;
 }
