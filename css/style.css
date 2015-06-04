@@ -30,6 +30,17 @@ h1 span{
 	font-size: 3em;
 	font-weight: normal;
 }
+nav {
+	float: right;
+	font-size: 1.2em;
+	font-weight: 200;
+}
+nav a {
+	color: black;
+	display: inline-block;
+	padding: 2em;
+	text-decoration: none;
+}
 .soul-font {
 	font-family: cursive;
 	font-size: 3em;
@@ -37,6 +48,7 @@ h1 span{
 }
 a {
 	text-decoration: none;
+	color: black;
 }
 p {
 	margin: 1em 3em;
@@ -74,4 +86,11 @@ p {
 }
 div {
 	margin: 1em;
+}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
 }
