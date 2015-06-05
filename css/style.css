@@ -47,7 +47,7 @@ nav a {
 	color: white;
 }
 .soul-font {
-	font-family: cursive;
+	font-family: cursive, 'Marck Script';
 	font-size: 3em;
 	font-weight: normal;
 }
@@ -85,7 +85,7 @@ aside {
 }
 .mission {
 	background-color: rgb(250,150,200);
-	margin: 1em;
+	margin: 2em;
 	padding: 1em;
 }
 .video-and-mission {
@@ -120,12 +120,13 @@ div {
 	width: 40%;
 }
 .solopics {
-	height:75vh;
-	margin:.5em;
+	float: left;
+	margin:.5%;
 	padding:0;
+	width: 32.33%;
 }
 .wrapper {
 	margin: 0 auto;
 	text-align: center;
-	width:1000px;
+	max-width:1200px;
 }
