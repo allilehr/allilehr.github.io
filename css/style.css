@@ -1,5 +1,5 @@
 body {
-	background-color: rgb(250,250,250);
+	background-color: white;
 	color: black;
 	font-family: tahoma,verdana,sans-serif;
 	font-size: 16px;
@@ -38,8 +38,13 @@ nav {
 nav a {
 	color: black;
 	display: inline-block;
-	padding: 2em;
+	margin: 1em;
+	padding: 1em;
 	text-decoration: none;
+}
+.topnav:hover {
+	background-color: #000;
+	color: white;
 }
 .soul-font {
 	font-family: cursive;
@@ -63,6 +68,7 @@ p {
 .center {
 	display:block;
 	margin:0 auto 0 auto;
+	text-align: center;
 }
 #slogan {
 	font-family: trebuchet, serif;
@@ -71,21 +77,20 @@ p {
 	font-weight: 300;
 	text-align: center;
 }
-.smallsplash {
-	height:85vh;
+aside {
+	float: left;
+	margin: 2em;
+	padding: 1em;
+	width: 50%;
 }
-.solopics {
-	height:80vh;
-	margin:.5em;
-	padding:0;
-}
-.wrapper {
-	margin: 0 auto;
-	text-align: center;
-	width:1000px;
-}
-div {
+.mission {
+	background-color: rgb(250,150,200);
 	margin: 1em;
+	padding: 1em;
+}
+.video-and-mission {
+	margin: .5em auto;
+	width: 100%;
 }
 .clearfix:after { 
 	content: "."; 
@@ -93,4 +98,34 @@ div {
 	display: block; 
 	height: 0; 
 	clear: both;
+}
+.smallsplash {
+	height:90vh;
+}
+.nav2 {
+	margin: 1em;
+	padding: 1em;
+}
+.nav2:hover {
+	background-color: #000;
+	color: white;
+}
+div {
+	margin: 1em;
+}
+.video {
+	border: solid grey;
+	float: left;
+	margin: .5em;
+	width: 40%;
+}
+.solopics {
+	height:75vh;
+	margin:.5em;
+	padding:0;
+}
+.wrapper {
+	margin: 0 auto;
+	text-align: center;
+	width:1000px;
 }
