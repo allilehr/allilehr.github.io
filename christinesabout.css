@@ -1,0 +1,65 @@
+* { margin:0; padding:0; box-sizing:border-box; 
+}
+body {
+	background-color: white;
+	color: grey;
+	font-family: helvetica,verdana,sans-serif;
+	font-size: 16px;
+	line-height: 1.3em;
+}
+header {
+	background: url('c-images/pictures.jpg');
+  	background-size: cover;
+  	color: white;
+  	font-family: Helvetica;
+  	height: 450px;
+  	text-align: center;
+}
+header nav a {
+	background-color: grey;
+	border: white solid 1px;
+	color: #fff;
+	float: left;
+	margin: 0;
+	padding: 1em;
+	text-decoration: none;
+}
+h1 {
+	font-family: 'Josefin Slab', serif;
+	font-size: 5em;
+	padding: .6em;
+	margin-bottom: 1em;
+}
+.slogan {
+	font-family: 'Rock Salt', cursive;
+	font-size: 1.5em;
+	padding: 7em;
+}
+.wrapper {
+	margin: 0 auto;
+	max-width: 960px;
+	text-align: center;
+}
+section#headshot {
+	float: left;
+	margin: 5em;
+}
+section#about {
+	margin: 1em;
+	max-width: 750px;
+	padding: 1em;
+	text-align: justify;
+}
+section#about p+p {
+	margin-top: 1em;
+}
+section#about ul {
+	text-indent: 1em;
+}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
