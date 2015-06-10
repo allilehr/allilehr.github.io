@@ -50,6 +50,10 @@ section#tabs div{
 	text-align: center;
 	width: 380px;
 }
+section#tabs div a{
+	color: white;
+	text-decoration: none;
+}
 section#tabs span{
 	color: grey;
 	padding: 2em;
