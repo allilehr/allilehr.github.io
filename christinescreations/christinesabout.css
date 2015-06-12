@@ -2,15 +2,15 @@
 }
 body {
 	background-color: white;
-	color: black;
+	color: grey;
 	font-family: helvetica,verdana,sans-serif;
 	font-size: 16px;
 	line-height: 1.3em;
 }
 header {
-	background: url('c-images/homepage.jpg');
+	background: url('christinescreations/c-images/pictures.jpg');
   	background-size: cover;
-  	color: grey;
+  	color: white;
   	font-family: Helvetica;
   	height: 450px;
   	text-align: center;
@@ -35,29 +35,26 @@ h1 {
 	font-size: 1.5em;
 	padding: 7em;
 }
-section#tabs {
+.wrapper {
 	margin: 0 auto;
 	max-width: 960px;
-	
-}
-section#tabs div{
-	background-color: grey;
-	color: #fff;
-	display: inline-block;
-	float=left;
-	margin: 1em;
-	padding: 2em;
 	text-align: center;
-	width: 380px;
 }
-section#tabs div a{
-	color: white;
-	text-decoration: none;
+section#headshot {
+	float: left;
+	margin: 5em;
 }
-section#tabs span{
-	color: grey;
-	padding: 2em;
-	width: 580px;
+section#about {
+	margin: 1em;
+	max-width: 750px;
+	padding: 1em;
+	text-align: justify;
+}
+section#about p+p {
+	margin-top: 1em;
+}
+section#about ul {
+	text-indent: 1em;
 }
 .clearfix:after { 
 	content: "."; 

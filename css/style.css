@@ -1,7 +1,6 @@
 * { margin:0; padding:0; box-sizing:border-box; 
 }
 body {
-	background-color: white;
 	color: black;
 	font-family: tahoma,verdana,sans-serif;
 	font-size: 16px;
@@ -80,7 +79,7 @@ section#video-and-mission {
 	width: 45%;
 }
 .mission {
-	background-color: rgb(250,150,200);
+	background-color: lavender;
 	float: left;
 	margin: 2em;
 	padding: 1em;
@@ -92,6 +91,11 @@ div {
 h2 {
 	padding: 1em;
 }
+.wrapper {
+	margin: 0 auto;
+	text-align: center;
+	max-width:1200px;
+}
 .solopics {
 	float: left;
 	margin:.5%;
@@ -102,11 +106,6 @@ h2 {
 	font-family: cursive, 'Marck Script';
 	font-size: 3em;
 	font-weight: normal;
-}
-.wrapper {
-	margin: 0 auto;
-	text-align: center;
-	max-width:1200px;
 }
 .center {
 	display:block;
