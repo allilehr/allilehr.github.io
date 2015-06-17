@@ -4,7 +4,6 @@ body {
 	color: black;
 	font-family: tahoma,verdana,sans-serif;
 	font-size: 16px;
-	line-height: 1.3em;
 }
 .logopic {
 	box-sizing: border-box;
@@ -61,6 +60,7 @@ a {
 	color: black;
 }
 p {
+	line-height:1.25em;
 	margin: 1em 3em;
 }
 #slogan {
@@ -94,6 +94,7 @@ h2 {
 	text-align: center;
 	max-width:1200px;
 }
+#clothes>section>div { }
 #buyit>div {
 	float: left;
 	padding:.25em;
@@ -107,24 +108,23 @@ h2 {
 	background-color: rgba(250,250,250,0);
 	color: rgba(5,5,5,0);
 	font-family: helvetica, sans-serif;
-	font-size: 3em;
 	height: 100%;
 	padding: 4%;
 	position: absolute;
-	width: 30%;
+	width: 100%;
+}
+.overlay h3 {
+	background-color: rgba(255,255,255,0);
+	font-size: 3em;
+	padding: .6em .2em;
 }
 #buyit>div:hover .overlay {
 	background-color: rgba(250,250,250,.5);
 	color: rgba(5,5,5,.5);
 }
-h3 {
+#buyit>div:hover .overlay h3 {
 	background-color: rgba(255,255,255,.5);
-	padding: .6em .2em;
 }
-/*section#buyit a:hover .overlay {
-	background-color: rgba(250,250,250,.5);
-	color: rgba(5,5,5,1);
-}*/
 .soul-font {
 	font-family: 'Great Vibes', cursive;
 	font-size: 3em;
