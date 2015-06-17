@@ -9,6 +9,7 @@ header {
 	background-color: #fff;
 	position: fixed;
 	width: 100%;
+	z-index: 1;
 }
 .logopic {
 	box-sizing: border-box;
