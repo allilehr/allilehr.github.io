@@ -111,7 +111,7 @@ h2 {
 }
 .overlay {
 	background-color: rgba(5,5,5,0);
-	color: rgba(5,5,5,0);
+	color: rgba(255,255,255,0);
 	font-family: helvetica, sans-serif;
 	height: 100%;
 	padding: 4%;
