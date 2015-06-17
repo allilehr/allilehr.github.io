@@ -151,7 +151,6 @@ h2 {
 }
 @media only screen and (max-width: 400px) {
 	.mission {
-		margin: 1em;
-		padding: 1em;
+		
 	}
 }
