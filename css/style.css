@@ -156,8 +156,8 @@ h2 {
 		font-size: 1em;
 	}
 	nav a {
-		margin: 1em .1em;
-		padding: 1em .15em;
+		margin: 1em .2em 0;
+		padding: 1em .1em;
 	}
 	section#splash .image-wrapper {
 		height: 500px;
