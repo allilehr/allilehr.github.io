@@ -162,4 +162,11 @@ h2 {
 		display: none;
 		visibility: hidden;
 	}
+	h1 {
+	font-size: 1em;
+	margin: .75% 0 0 0;
+	}
+	h1 span{
+		padding: .25em;
+	}
 }
