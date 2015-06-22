@@ -89,7 +89,7 @@ section#video-and-mission {
 }
 .mission {
 	float: left;
-	margin: 2em;
+	margin: 1em;
 	padding: 1em;
 	width: 45%;
 }
@@ -150,4 +150,16 @@ h2 {
 	display: block; 
 	height: 0; 
 	clear: both;
+}
+@media only screen and (min-width: 400px) and (max-width: 800px) {
+	.video {
+		border: solid grey;
+		float: center;
+		margin: 1em;
+		width: 95%;
+	}
+	.mission {
+		display: none;
+		visibility: hidden;
+	}
 }
