@@ -151,9 +151,14 @@ h2 {
 	height: 0; 
 	clear: both;
 }
-@media only screen and (min-width: 400px) and (max-width: 800px) {
+@media only screen and (min-width: 600px) and (max-width: 890px) {
+	nav {
+		display: none;
+	}
+	section#splash .image-wrapper {
+		height: 500px;
+	}
 	.video {
-		border: solid grey;
 		float: center;
 		margin: 1em;
 		width: 95%;
@@ -161,11 +166,26 @@ h2 {
 	.mission {
 		display: none;
 	}
-	h1 {
-	font-size: 1em;
-	margin: .75% 0 0 0;
+	h2 {
+		display: none;
 	}
+}
+@media only screen and (max-width: 600px) {
 	nav {
+		display: none;
+	}
+	section#splash .image-wrapper {
+		height: 300px;
+	}
+	.video {
+		float: center;
+		margin: 1em;
+		width: 95%;
+	}
+	.mission {
+		display: none;
+	}
+	h2 {
 		display: none;
 	}
 }
