@@ -59,7 +59,6 @@ section#splash img {
 }
 .logo {
 	font-family: 'Cinzel Decorative', cursive;
-	font-size: 3em;
 	font-weight: normal;
 }
 a {
@@ -94,6 +93,7 @@ section#video-and-mission {
 	width: 45%;
 }
 h2 {
+	font-size: 3em;
 	padding: 1em;
 }
 #clothes {
@@ -176,8 +176,8 @@ h2 {
 }
 @media only screen and (max-width: 650px) {
 	h1 {
-		font-size: 1em;
-		margin: 0 0 0 0;
+		font-size: 2em;
+		margin: .5em 0 0 0;
 	}
 	nav {
 		display: none;
