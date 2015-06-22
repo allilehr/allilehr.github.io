@@ -177,7 +177,7 @@ h2 {
 @media only screen and (max-width: 650px) {
 	h1 {
 		font-size: 2em;
-		margin: .5em 0 0 0;
+		padding: .5em 0 0 0;
 	}
 	nav {
 		display: none;
@@ -195,5 +195,9 @@ h2 {
 	}
 	h2 {
 		display: none;
+	}
+	.soul-font {
+		font-size: 2em;
+		padding: 1em;
 	}
 }
