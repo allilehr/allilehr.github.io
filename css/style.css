@@ -36,11 +36,14 @@ nav {
 	float: right;
 	font-size: 1.2em;
 	font-weight: 200;
+	position: absolute;
+	right: 1%;
+	top: 20%;
+	transform: translateY (-50%);
 }
 nav a {
 	color: black;
 	display: inline-block;
-	margin: 1em .5em;
 	padding: 1em;
 	text-decoration: none;
 }
@@ -71,10 +74,13 @@ p {
 }
 #slogan {
 	font-family: trebuchet, serif;
-	font-size: 1.5em;
+	font-size: 2em;
 	font-style: italic;
 	font-weight: 300;
 	text-align: center;
+}
+p#slogan span {
+	color: rgb(255,76,254);
 }
 section#video-and-mission {
 	margin: .5em auto;
@@ -151,13 +157,12 @@ h2 {
 	height: 0; 
 	clear: both;
 }
-@media only screen and (min-width: 650px) and (max-width: 890px) {
+@media only screen and (min-width: 650px) and (max-width: 907px) {
 	nav {
 		font-size: 1em;
 	}
 	nav a {
-		margin: 1em .2em 0;
-		padding: 1em .1em;
+		padding: 1em .25em;
 	}
 	section#splash .image-wrapper {
 		height: 500px;
@@ -189,7 +194,7 @@ h2 {
 		height: 300px;
 	}
 	#slogan {
-		font-size: 1em;
+		font-size: 1.5em;
 	}
 	.video {
 		float: center;
