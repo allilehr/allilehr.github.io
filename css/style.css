@@ -94,9 +94,8 @@ section#video-and-mission {
 }
 .mission {
 	float: left;
-	margin: 1em;
-	padding: 1em;
-	width: 45%;
+	font-size: 1.5em;
+	width: 50%;
 }
 h2 {
 	font-size: 3em;
