@@ -90,8 +90,8 @@ section#video-and-mission {
 .mission {
 	float: left;
 	font-size: 1.25em;
-	margin: .5em;
-	width: 40%;
+	margin: 1em;
+	width: 42%;
 }
 .mission span {
 	color: rgb(175,175,175);
@@ -160,7 +160,7 @@ h2 {
 	height: 0; 
 	clear: both;
 }
-@media only screen and (min-width: 650px) and (max-width: 907px) {
+@media only screen and (min-width: 650px) and (max-width: 906px) {
 	nav {
 		font-size: 1em;
 	}
