@@ -156,14 +156,18 @@ h2 {
 .mobile-nav {
 	display: none;
 }
+.menu-btn {
+	float: right;
+	padding: 1.5em;
+}
 .menu-btn div {
 	font-size: 18px;
 	font-weight: 200;
 	line-height: 1.2;
-	margin-top: 5em;
+	margin-top: -0.5em;
 	padding-left: 8px;
 	position: absolute;
-	right: 100%;
+	left: 100%;
 	top: 64%;
 	vertical-align: middle;
 	z-index: 99;
@@ -172,7 +176,7 @@ h2 {
 	background: rgb(0,0,0);
 	display: block;
 	height: 3px;
-	margin: .25em 22em;
+	margin: .25em;
 	top: 0;
 	width: 19px;
 	z-index: 99;
@@ -190,7 +194,7 @@ h2 {
 	height: 0; 
 	clear: both;
 }
-@media only screen and (min-width: 650px) and (max-width: 906px) {
+@media only screen and (min-width: 680px) and (max-width: 906px) {
 	nav {
 		font-size: 1em;
 	}
@@ -212,7 +216,7 @@ h2 {
 		display: none;
 	}
 }
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 680px) {
 	.logopic {
 		height: 4em;
 	}
