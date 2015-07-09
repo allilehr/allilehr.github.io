@@ -156,9 +156,19 @@ h2 {
 .mobile-nav {
 	display: none;
 }
+li {
+	list-style-type: none;
+	padding: 1em;
+	text-align: center;
+}
+li a {
+	margin-top: 3em;
+	padding: 1em;
+}
 .menu-btn {
 	float: right;
-	padding: 1.5em;
+	margin: 1em;
+	padding: .5em;
 }
 .menu-btn div {
 	font-size: 18px;
