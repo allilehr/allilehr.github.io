@@ -153,6 +153,36 @@ h2 {
 	margin:0 auto 0 auto;
 	text-align: center;
 }
+.mobile-nav {
+	display: none;
+}
+.menu-btn div {
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 1.2;
+	margin-top: 5em;
+	padding-left: 8px;
+	position: absolute;
+	right: 100%;
+	top: 64%;
+	vertical-align: middle;
+	z-index: 99;
+}
+.menu-btn span {
+	background: rgb(0,0,0);
+	display: block;
+	height: 3px;
+	margin: .25em 22em;
+	top: 0;
+	width: 19px;
+	z-index: 99;
+}
+.responsive-menu{
+	display: none;
+}
+.expand {
+	display: block !important;
+}
 .clearfix:after { 
 	content: "."; 
 	visibility: hidden; 
@@ -192,6 +222,9 @@ h2 {
 	}
 	nav {
 		display: none;
+	}
+	.mobile-nav {
+		display: block;
 	}
 	section#splash .image-wrapper {
 		height: 300px;
