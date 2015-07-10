@@ -94,16 +94,17 @@ section#video-and-mission {
 	width: 42%;
 }
 .mission span {
-	color: rgb(175,175,175);
-	font-size: 1.75em;
+	color: rgb(130,130,130);
+	font-size: 1.5em;
 	font-style: italic;
-}
-.mission p {
-	margin-bottom: .5em;
 }
 h2 {
 	font-size: 3em;
 	padding: 1em;
+}
+h2.hidden {
+	font-size: 2em;
+	visibility: hidden;
 }
 #clothes {
 	margin: 0 auto;
@@ -162,7 +163,6 @@ li {
 	text-align: center;
 }
 li a {
-	margin-top: 3em;
 	padding: 1em;
 }
 .menu-btn {
@@ -225,6 +225,11 @@ li a {
 	h2 {
 		display: none;
 	}
+	h2.hidden {
+		display: block;
+		font-size: 1.5em;
+		visibility: hidden;
+	}
 }
 @media only screen and (max-width: 680px) {
 	.logopic {
@@ -256,6 +261,11 @@ li a {
 	}
 	h2 {
 		display: none;
+	}
+	h2.hidden {
+		display: block;
+		font-size: 1.5em;
+		visibility: hidden;
 	}
 	.soul-font {
 		font-size: 2em;
