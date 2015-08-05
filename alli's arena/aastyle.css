@@ -1,0 +1,130 @@
+* { margin:0; padding:0; box-sizing:border-box; 
+}
+body {
+	background-color: white;
+	color: black;
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 16px;
+	text-align: center;
+}
+header {
+	background: url('images/print.jpg');
+	background-size: cover;
+	color: #fff;
+	font-family: helvetica, sans-serif;
+}
+header h1 {
+	color: #fff;
+	font-family: 'Architects Daughter', helvetica;
+	font-size: 3em;
+	padding: .5em;
+}
+#topnav {
+	padding: .75em;
+}
+#topnav a {
+	background-color: white;
+	padding: .5em 1em;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+#topnav a:hover {
+	background-color: rgb(211,122,255);
+	color: white;
+}
+h1:hover {
+	color: rgb(211,122,255);
+}
+h2 {
+	color: rgb(174,26,247);
+	font-family: helvetica, sans-serif;
+	padding: 1em 0 0 0;
+}
+#content {
+	margin: 1em auto;
+	padding: 1em 2em;
+	text-align: left;
+	width: 100%;
+}
+#content li {
+	list-style-type: square;
+	margin: 1em auto;
+	max-width: 600px;
+	padding: 0;
+	text-align: left;
+}
+#content p {
+	margin: 1em auto;
+	max-width: 600px;
+	padding-top: 1em;
+}
+#content a {
+	color: rgb(174,26,247);
+}
+footer a {
+	color: rgb(174,26,247);
+}
+.mobile-nav {
+	display: none;
+}
+li {
+	background-color: white;
+	list-style-type: none;
+	padding: 1em;
+	text-align: center;
+	width: 100%;
+}
+li a {
+	padding: 1em;
+}
+.menu-btn div {
+position: absolute;
+left: 100%;
+top: 64%;
+padding-right: 8px;
+margin-top: -0.50em;
+line-height: 1.2;
+font-size: 18px;
+font-weight: 200;
+vertical-align: middle;
+z-index: 99;
+}
+.menu-btn span {
+display: block;
+width: 19px;
+height: 3px;
+margin: 4px 0;
+background: rgb(0,0,0);
+z-index: 99;
+}
+.responsive-menu{
+display: none;
+}
+.expand {
+display: block !important;
+}
+.clearfix:after { 
+	content: "."; 
+	visibility: hidden; 
+	display: block; 
+	height: 0; 
+	clear: both;
+}
+@media only screen and (min-width: 680px) and (max-width: 906px) {
+	nav {
+		font-size: .75em;
+	}
+	nav a {
+		padding: 1em .25em;
+	}
+}
+@media only screen and (max-width: 680px) {
+	nav {
+		display: none;
+	}
+	.mobile-nav {
+		display: block;
+	}
+}
