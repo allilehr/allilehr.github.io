@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initialscale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<title>Alex's Purnima Yoga</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<header>
+		<nav class="clearfix">
+			<a href="index.html">Home</a>
+			<a href="about.html">About</a>
+			<a href="#">Schedule</a>
+			<a href="#">Gallery</a>
+		</nav>
+		<div class="mobile-nav">
+	    	<div class="menu-btn" id="menu-btn">
+		<div></div>
+		<span></span>
+		<span></span>
+		<span></span>
+	    	</div>
+ 
+		    <div class="responsive-menu">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="schedule.html">Schedule</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+				</ul>
+			</div>
+		</div>
+		<h1><span>Alex's Purnima Yoga</span></h1>
+		<p class="slogan">a holistic, alignment-focused approach to yoga</p>
+	</header>
+	<section id="about">
+		<p>Alex Leikin is a Maryland native who achieved her dream of becoming a certified yoga instructor while living and traveling in Australia. Having studied in the beautiful Byron Bay under world-renowned teacher trainers at Byron Yoga Centre in 2014, Alex incorporates Purna Yoga style in all of her classes. Purna Yoga represents a holistic, alignment-focused approach to yoga, integrating the asanas with philosophy, meditation, and pranayama breath control. Alex’s sequences range from dynamic flows and fiery holds to gentle, meditative movements. Some of her favorite things besides yoga include hiking, sunflowers, traveling, homemade all-natural food, and dogs (all of them).  She is currently teaching at the Ralph S. O’Connor Recreation Center and is looking forward to continuing along this rewarding, ever-evolving path.</p>
+	</section>
+	<footer>
+		<p>Contact me via email <a href="mailto:amleikin5@gmail.com">here</a> or follow me on Instagram for yoga inspiration <a href="https://www.instagram.com/purnima_yoga/">@purnima_yoga</a></p>
+	</footer>
+	<script type="text/javascript">
+	jQuery(function($){
+		$( '.menu-btn' ).click(function(){
+    	$('.responsive-menu').toggleClass('expand')
+    	})
+	})
+	</script>
+</body>
+</html>
