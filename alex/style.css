@@ -1,18 +1,15 @@
 * { margin:0; padding:0; box-sizing:border-box; 
 }
 body {
-	background-color: rgb(31,134,203);
+	background-color: rgb(55,160,78);
 	color: #fff;
 	font-family: helvetica,verdana,sans-serif;
 	font-size: 16px;
 	line-height: 1.3em;
 }
 header {
-	background: url('images/alex homepage.jpg');
-  	background-size: cover;
   	color: white;
   	font-family: Helvetica;
-  	height: 450px;
   	text-align: center;
 }
 header nav a {
@@ -30,20 +27,28 @@ a {
 	text-decoration: none;
 }
 header nav a:hover {
-	background-color: rgb(55,160,78);
+	background-color: rgb(31,134,203);
 	color: white;
 }
 h1 {
 	font-family: 'Indie Flower', serif;
 	font-size: 5em;
 	padding: .6em;
-	margin-bottom: 1em;
+}
+section#splash div {
+	height: 700px;
+	overflow: hidden;
+	text-align: center;
+}
+section#splash img {
+	width: 100%;
 }
 .slogan {
-	color: rgb(31,134,203);
+	color: rgb(0,0,0);
 	font-family: 'Indie Flower', cursive;
 	font-size: 1.5em;
-	padding: 7em;
+	padding: 1em;
+	text-align: center;
 }
 section#about {
 	color: white;
@@ -51,6 +56,9 @@ section#about {
 	max-width: 960px;
 	padding: 2em;
 	
+}
+section#about p{
+	margin-bottom: 1em;
 }
 footer {
 	margin-bottom: 1.5em;
@@ -113,9 +121,6 @@ display: block !important;
 	h1 {
 	font-size: 4em;
 	}
-	.slogan {
-		visibility: hidden;
-	}
 }
 @media only screen and (max-width: 680px) {
 	nav {
@@ -126,8 +131,5 @@ display: block !important;
 	}
 	h1 {
 	font-size: 2em;
-	}
-	.slogan {
-		visibility: hidden;
 	}
 }
