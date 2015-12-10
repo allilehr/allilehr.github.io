@@ -36,7 +36,7 @@ h1 {
 	padding: .6em;
 }
 section#splash div {
-	height: 700px;
+	height: 550px;
 	overflow: hidden;
 	text-align: center;
 }
@@ -59,6 +59,20 @@ section#about {
 }
 section#about p{
 	margin-bottom: 1em;
+}
+#gallery {
+	margin: 0 auto;
+	max-width:1200px;
+	text-align: center;
+}
+#gallery>section>div {
+	float: left;
+	padding:.25em;
+	position: relative;
+	width: 33.33%;
+}
+#gallery>section>div img {
+	width:100%;
 }
 footer {
 	margin-bottom: 1.5em;
