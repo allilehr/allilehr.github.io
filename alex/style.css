@@ -60,6 +60,9 @@ section#about {
 section#about p{
 	margin-bottom: 1em;
 }
+section#about p span {
+	color: #000;
+}
 #gallery {
 	margin: 0 auto;
 	max-width:1200px;
